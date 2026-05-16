@@ -1,0 +1,19 @@
+[project]
+name = "power-grid-sim"
+version = "0.1.0"
+description = "24-hour power grid simulator with MILP and greedy solvers"
+readme = "README.md"
+authors = [
+    { name = "Viktor Perepechaev", email = "viktor2309msk@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pulp",
+    "matplotlib",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false

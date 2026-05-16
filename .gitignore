@@ -17,8 +17,6 @@ wheels/
 .coverage
 htmlcov/
 
-# Generated output
-testcases/output_*.png
 
 # OS
 .DS_Store

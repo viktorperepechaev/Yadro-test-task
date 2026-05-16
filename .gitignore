@@ -8,3 +8,17 @@ wheels/
 
 # Virtual environments
 .venv
+
+# uv cache
+.uv/
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated output
+testcases/output_*.png
+
+# OS
+.DS_Store
